@@ -6,7 +6,7 @@ async function LoadData(){
     
     // desenvolvedor ID 16nFRr0z6JcTO6tMVSavrGTbthvWJDDog9md66M7DNqQ
     // caça-fome ID 1_jdR3K3-8_KjGI6zrQei7oli9829t225VMeAyDYA5RI
-    let data = await drive('1_jdR3K3-8_KjGI6zrQei7oli9829t225VMeAyDYA5RI');
+    let data = await drive('16nFRr0z6JcTO6tMVSavrGTbthvWJDDog9md66M7DNqQ');
     console.log(data);
    
     //carrega conquistas parte 1

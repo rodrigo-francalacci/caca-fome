@@ -8,7 +8,7 @@ async function LoadData(){
     //desenvolvedor ID 13sHFd7PQLFYH9sQ9OB2Le756NhE5MJkbGRXMJ1617NA
     //caça-fome ID 1STdaRhUgkIwo66BCkwlB9Mk14nHpiBYDE9WheIL6bVI
     
-    let data = await drive('1STdaRhUgkIwo66BCkwlB9Mk14nHpiBYDE9WheIL6bVI');
+    let data = await drive('13sHFd7PQLFYH9sQ9OB2Le756NhE5MJkbGRXMJ1617NA');
     data = data.reverse();
     console.log(data);
    
