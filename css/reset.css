@@ -1,0 +1,75 @@
+/*-----------------------------*/
+/* RESET STYLES*/
+body, p, h1, ul, li, blockquote {
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+/*    zoom:80%;*/
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+/*    transform: scale(0.8);
+    transform-origin: top center;*/
+}
+
+
+
+:focus {
+outline: 0;
+}
+
+.item {
+
+}
+
+/* Presets ----------------------*/
+
+:root {
+    --orange: #e74610;
+    --blue: #4abcc1;
+    --black2: #262626;
+    --white2: #f6f6f5;
+    --grey: #a7a7a7;
+    
+}
+
+.bkg-orange{background-color: var(--orange);}
+
+.bkg-blue{background-color: var(--blue);}
+
+.bkg-black2{background-color: var(--black2);}
+
+.bkg-white2{background-color: var(--white2);}
+
+.bold{font-weight: bold;}
+
+
+

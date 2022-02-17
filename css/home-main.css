@@ -1,0 +1,392 @@
+/*-----------------------------*/
+/* HOME MAIN*/
+
+main {
+    width: 100%;
+    background-color: var(--white2);
+    
+}
+
+/*--------------------------------------*/
+/*Detalhes específicos dos banners da home*/
+
+    /*Banner1*/
+    #banner1{background-image: url(../img/home/home-banner-1.jpg);}
+
+    .banner1-titulo{
+    position: relative;
+    top:180px;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    }
+
+    .banner1-titulo div{font-size: 41px; color:white; font-weight: lighter;}
+    .banner1-titulo span{font-size: 41px; color:white; font-weight: bold;}
+
+    @media (max-width: 1120px){
+    .banner1-titulo{max-width:none; text-align: center; top: 100px;} 
+    }
+
+    @media (max-width: 749px){
+    #banner1{background-image: url(../img/home/home-banner-1-mobile.jpg);}
+    .banner1-titulo{max-width:none; text-align: center; top: 100px;} 
+    }
+
+    /*Banner2*/
+    #banner2{background-image: url(../img/home/home-banner-2.jpg);}
+
+    .banner2-content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+
+            .banner2-titulo, .banner2-descricao, .banner2-img{
+            margin: 30px 30px;
+            }
+
+            .banner2-titulo{
+            color:white;
+            font-weight: bold;
+            font-size: 52px;
+            }
+
+            .banner2-descricao{
+            color: white;
+            font-size: 19px;
+            text-align: justify;
+            width: 95%;
+            max-width: 600px;
+            }
+
+            .banner2-img{
+            width: 95%;
+            max-width: 385px;
+            height: auto;
+            }
+    
+    @media (max-width: 1028px){
+    .banner2-descricao{display: none;}  
+    }
+    
+    @media (max-width: 749px){
+    #banner2{background-image: url(../img/home/home-banner-2-mobile.jpg);} 
+    }
+
+    /*Banner3*/
+    #banner3{background-image: url(../img/home/home-banner-3.jpg);}
+
+
+    .banner3-content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    }
+            .banner3-titulo, .banner3-descricao{
+            margin: 30px 210px;
+            }
+
+            .banner3-titulo{
+            color:white;
+            font-weight: bold;
+            font-size: 52px;
+            }
+
+            .banner3-descricao{
+            color: white;
+            font-size: 33px;
+            font-style: italic;
+            text-align: left;
+            width: 95%;
+            max-width: 560px;
+            }
+
+                    .banner3-descricao span{
+                    color: white;
+                    font-size: 33px;
+                    font-style: italic;
+                    text-align: left;
+                    font-weight: bold;
+                    }
+
+    @media(max-width: 1000px){
+    .banner3-content{max-width:none; text-align: center; top: 220px;}
+    .banner3-titulo, .banner3-descricao{
+    margin: 30px 30px;
+    max-width: 90%;
+    }
+        
+    }
+    @media (max-width: 749px){
+    #banner3{background-image: url(../img/home/home-banner-3-mobile.jpg);}
+    }
+
+    @media (max-width: 500px){
+    .banner3-titulo{font-size: 48px; margin: 20px auto;}
+    .banner3-descricao{font-size: 28px; margin: 20px auto;}
+    .banner3-descricao span{font-size: 28px;}    
+    }
+
+    @media (max-width: 416px){
+    .banner3-titulo{font-size: 40px; margin: 10px auto;}
+    .banner3-descricao{font-size: 22px; margin: 10px auto;}
+    .banner3-descricao span{font-size: 22px;}    
+    }
+/*--------------------------------------*/
+/*Main*/
+.cards-cadastrar{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+margin-top: 45px;
+width: 100%;
+max-width: 1055px; /* 53.4% */
+}
+
+        .card-cadastrar-item{
+        width: 320px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 0 4px 28px 0 rgba(0,0,0,0.2);
+        position: relative;
+        margin:15px;
+        }
+
+            .card-cadastrar-item-pic{
+            width: 100%;
+            height: auto;;
+            }
+
+                .card-cadastrar-item-pic img{
+                display: block;
+                margin:auto;
+                padding: 40px;
+                }
+
+
+            .card-cadastrar-item-title{
+            width: 100%;
+            height: 100px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            color: #262626;
+            margin-bottom: 15px;
+            }
+
+            .card-cadastrar-item-descricao{
+            height: auto;
+            width: 100%;
+            text-align: justify;
+            text-justify: inter-word;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #262626;
+            font-size: 16px;
+            }
+
+            .card-cadastrar-item-bot{
+            width: 100%;
+            height: 80px;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 80px;
+            position: absolute;
+            bottom: 0;
+            }
+
+.hr-bar{
+    border-top: 2px dotted var(--grey);
+    border: none;
+    width: 100%;
+    max-width: 1280px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-doar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content:space-between;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.card-doar-esquerda{
+    width: 40%;
+    min-width: 400px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+        .card-doar-esquerda-triangle {
+        width: 0;
+        height: 0;
+        border-top: 32px solid transparent;
+        border-left: 32px solid var(--orange);
+        border-bottom: 32px solid transparent;
+            
+        }
+
+        .card-doar-esquerda-title{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        max-width: 90%;
+        margin: 15px auto 15px auto;
+            
+        }
+
+        .card-doar-esquerda-title p{
+        font-size: 47px;
+        font-weight: bold;
+        color: var(--black2);
+        margin-left: 30px;
+        }
+
+        .card-doar-esquerda-bot{
+        width:300px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        color:white;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 15px auto 15px auto;
+        }
+
+        .card-doar-esquerda-inputbox{
+            width: 300px;
+            height: 75px;
+            font-size: 48px;
+            background-color: white;
+            color: var(--grey);
+            line-height: 75px;
+            text-align: center;
+            margin: 0px auto 0px auto;
+        }
+
+.card-doar-esquerda-inputbox span{
+    width: 120px;
+    height: 75px;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.card-doar-esquerda-inputbox input{
+    border: none;
+    width: 180px;
+     height: 75px;
+    font-size: 48px;
+    color: var(--grey);
+    
+}
+
+.card-doar-direita{
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+width: 60%;
+min-width: 520px;
+height: 100%;
+min-height: 425px;
+}
+
+
+.card-doar-direita-descricao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: center;
+    width: 90%;
+}
+
+        .card-doar-direita-descricao span{
+        font-size: 28px;
+        color: var(--black2);
+        font-style: italic;
+        }
+
+        .card-doar-direita-bot{
+        width: 230px;
+        height: 80px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        color:white;
+        margin: 20px 20px 20px 0px;
+        font-size: 25px;
+        }
+
+.card-doar-valores{
+    width: 300px;
+    height: 250px;
+}
+
+        .card-doar-valores-valor{
+            color:white;
+            height: 75px;
+            line-height: 75px;
+            font-size: 47px;
+            text-align: center;
+            font-weight: bold;
+            background-color: var(--orange);
+        }
+
+        .card-doar-valores-descricao{
+            font-size: 18px;
+            margin-left: 23px;
+            margin-right: 23px;
+            margin-top: 30px;
+            text-align: justify;
+            
+        }
+
+@media (max-width: 1060px){
+    .card-doar{justify-content: space-around;}
+    .card-doar-direita img{display: none;}
+}
+
+@media(max-width: 600px){
+    .card-doar-esquerda-title p{font-size: 42px;}
+    .card-doar-direita-descricao span{font-size: 22px;}
+    .card-doar-esquerda-title{max-width: 90%;}
+}
+
+
+@media(max-width: 990px){
+    .card-doar-direita{justify-content: center; height: auto; min-height:inherit; width: 100%; min-width: inherit; margin:20px auto;}
+    .card-doar-direita-descricao{justify-content: center;}
+    .card-doar-direita-descricao span{text-align: justify;}
+    .card-doar-direita-bot{margin: 20px auto;}
+    .card-doar-esquerda{height: auto; width: 100%; min-width: inherit; margin: auto;}  
+}
+
+@media(max-width: 370px){
+    .card-cadastrar-item{transform: scale(0.9)}
+    .card-doar-esquerda-title p{font-size: 43px;}
+    
+}
+
+
+
+
+

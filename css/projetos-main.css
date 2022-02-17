@@ -1,0 +1,167 @@
+/*-----------------------------*/
+/* PROJETOS MAIN*/
+
+main {
+width: 100%;
+background-color: var(--white2);
+padding-top: 80px;
+padding-bottom: 120px;
+}
+
+/*--------------------------------------*/
+/*Detalhes específicos dos banners da "conquistas"*/
+
+    /*Banner1*/
+    #banner1{background-image: url(../img/projetos/projetos-banner-1.jpg);}
+
+    /*Banner2*/
+    #banner2{background-image: url(../img/projetos/projetos-banner-2.jpg);}
+
+    /*Banner3*/
+    #banner3{background-image: url(../img/projetos/projetos-banner-3.jpg);}
+
+    .titulo{
+    position: relative;
+    top:170px;
+    left: calc(100% - 500px);
+    text-align: right;
+    width: 250px;
+    max-width: 590px;
+    }
+
+    .titulo div{font-size: 41px; color:white; font-weight: lighter;}
+    .titulo span{font-size: 41px; color:white; font-weight: bold;}
+
+
+    @media (max-width: 749px){
+    #banner1{background-image: url(../img/projetos/projetos-banner-1-mobile.jpg);}
+    #banner2{background-image: url(../img/projetos/projetos-banner-2-mobile.jpg);}
+    #banner3{background-image: url(../img/projetos/projetos-banner-3-mobile.jpg);}
+    .titulo{max-width:100%; width: 100%; text-align: center; top: 100px; left:inherit;} 
+    }
+
+/*--------------------------------------*/
+
+.hr-bar{
+border-top: 2px dotted var(--grey);
+width: 90%;
+max-width: 1280px;
+margin:auto;
+margin-top: 30px;
+margin-bottom: 30px;
+display: none;
+}
+
+h2{
+color: var(--orange);
+font-weight: bold;
+font-size: 51px;
+height: 100px;
+line-height: 100px;
+text-align: left;
+margin-left: 65px;
+}
+
+h3{
+color: var(--orange);
+font-weight: bold;
+font-size: 31px;
+line-height: 31px;
+text-align: left;
+}
+
+p{
+color: var(--black2);
+font-size: 18px;
+text-align: justify;
+}
+
+.projetos-item-head-titulo{
+width: 85%;
+height: 100px;
+}
+
+.projetos-item-head-space{
+width: 180px;
+}
+
+.projetos-container{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+}
+
+        .projetos-item{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        }
+
+                .projetos-item-picture{
+                width: 180px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                }
+
+.projetos-item-picture img{
+    width: 85%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+}
+
+.projetos-item-picture-costura{
+    width: 100% !important;
+    height: auto;
+} 
+
+.projetos-item-picture p{
+    text-align: center;
+    font-weight: bold;
+}
+
+                .projetos-item-texto{
+                width: 85%;
+                height: 200px;
+                margin: auto;
+                background-image: url(../img/projetos/projetos-border.png);
+                background-position: left;
+                background-repeat: no-repeat;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                }
+
+.projetos-item-texto h3{
+padding-left: 65px;
+margin-bottom: 30px;
+}
+
+.projetos-item-texto p{
+padding-left: 65px;
+}
+
+@media (max-width: 1205px){
+    h2{text-align: center; margin: auto;}
+    .hr-bar{display: block;}
+    .projetos-item{padding: 10px;}
+    .projetos-item-texto{background-image: none;}
+    .projetos-item-texto h3{padding-left: 0; }
+    .projetos-item-texto p{padding-left: 0;}
+}
+
+@media (max-width: 1199px){
+    .projetos-item{justify-content: space-around;}
+    .projetos-item-picture{margin: 20px auto;}
+    .projetos-item-texto{height: inherit;}
+    
+    
+}
+
+
+

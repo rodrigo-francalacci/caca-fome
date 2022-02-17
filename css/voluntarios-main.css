@@ -1,0 +1,100 @@
+/*-----------------------------*/
+/* VOLUNTÁRIOS MAIN*/
+
+main {
+    width: 100%;
+    background-color: var(--white2);
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+/*--------------------------------------*/
+/*Detalhes específicos dos banners da "voluntários"*/
+
+    /*Banner1*/
+    #banner1{background-image: url(../img/voluntarios/voluntarios-banner-1.jpg);}
+
+    /*Banner2*/
+    #banner2{background-image: url(../img/voluntarios/voluntarios-banner-2.jpg);}
+
+
+    /*Banner3*/
+    #banner3{background-image: url(../img/voluntarios/voluntarios-banner-3.jpg);}
+
+    .titulo{
+    position: relative;
+    top:170px;
+    left: calc(100% - 500px);
+    text-align: right;
+    width: 250px;
+    max-width: 590px;
+    }
+
+    .titulo div{font-size: 41px; color:white; font-weight: lighter;}
+    .titulo span{font-size: 41px; color:white; font-weight: bold;}
+
+
+    @media (max-width: 749px){
+    #banner1{background-image: url(../img/voluntarios/voluntarios-banner-1-mobile.jpg);}
+    #banner2{background-image: url(../img/voluntarios/voluntarios-banner-2-mobile.jpg);}
+    #banner3{background-image: url(../img/voluntarios/voluntarios-banner-3-mobile.jpg);}
+    .titulo{max-width:100%; width: 100%; text-align: center; top: 100px; left:inherit;} 
+    }
+
+/*--------------------------------------*/
+/*Main*/
+
+
+                h2{
+                    color: var(--orange);
+                    font-weight: bold;
+                    font-size: 51px;
+                    width: 100%;
+                    line-height: 51px;
+                    text-align: left;
+                    padding-bottom: 40px;
+                }
+
+
+.voluntarios{
+width: 100%;
+max-width: 1050px;
+margin: auto;
+display: flex;
+flex-wrap: wrap; 
+align-content: center;
+justify-content: space-between;
+}
+
+        .voluntarios-left{
+            height: 190px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+
+        .voluntarios-right{
+            width: 780px;
+
+        }
+                .voluntarios-right p{
+                text-align: justify;
+                font-size: 21px;
+                    line-height: 24px;
+                color: var(--black2);
+                }
+
+                .voluntarios-right-bot{
+                width: 317px;
+                height: 80px;
+                background-color: var(--black2);
+                text-align: center;
+                margin-top: 40px;
+                }
+
+                        .voluntarios-right-bot a{
+                        color: white;
+                        font-weight: bold;
+                        font-size: 26px;
+                        line-height: 40px;
+                        }

@@ -1,0 +1,90 @@
+/*------------------------------------*/
+/*BANNER CONFIGURAÇÕES GERAIS*/
+/*------------------------------------*/
+/*Keyframes config*/
+
+.fade-in{
+    animation: fadeIn 1s;
+}
+
+.fade-out{
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    
+    to{
+        opacity: 0;
+    }
+}
+
+/*------------------------------------*/
+/* Configuração geral dos conatainers */
+.banner-containter{
+width: 100%;
+max-width: 1920px;
+height: 441px;
+margin: 0 auto;
+}
+
+#banner-slides{
+width: 100%;
+height: 441px;
+margin: auto;
+position: relative;
+}
+
+/*------------------------------------*/
+/* Configuração geral dos botões nav do slideshow */
+.banner-nav{ 
+position: relative;
+top: -28px;
+display: flex;
+justify-content: center;
+}
+
+#banner-nav-1, #banner-nav-2, #banner-nav-3 {
+height: 20px;
+width: 20px;
+border-radius: 50%;
+background-color: #f6f6f5;
+margin: 0px 5px;
+cursor: pointer;
+}
+
+#banner-nav-1{
+background-color: #d64a4a;
+}
+
+/*------------------------------------*/
+/* Configuração geral dos banners */
+#banner1, #banner2, #banner3{
+position: absolute;
+top: 0;
+width: 100%;
+height: 441px;
+margin: auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+

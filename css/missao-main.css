@@ -1,0 +1,123 @@
+/*-----------------------------*/
+/* MISSÃO MAIN*/
+
+main {
+    width: 100%;
+    background-color: var(--white2);
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+/*--------------------------------------*/
+/*Detalhes específicos dos banners da "missao"*/
+
+    /*Banner1*/
+    #banner1{background-image: url(../img/missao/missao-banner-1.jpg);}
+
+    /*Banner2*/
+    #banner2{background-image: url(../img/missao/missao-banner-2.jpg);}
+
+    /*Banner3*/
+    #banner3{background-image: url(../img/missao/missao-banner-3.jpg);}
+
+    .titulo{
+    position: relative;
+    top:170px;
+    left: calc(100% - 500px);
+    text-align: right;
+    width: 250px;
+    max-width: 590px;
+    }
+
+    .titulo div{font-size: 41px; color:white; font-weight: lighter;}
+    .titulo span{font-size: 41px; color:white; font-weight: bold;}
+
+
+    @media (max-width: 749px){
+    #banner1{background-image: url(../img/missao/missao-banner-1-mobile.jpg);}
+    #banner2{background-image: url(../img/missao/missao-banner-2-mobile.jpg);}
+    #banner3{background-image: url(../img/missao/missao-banner-3-mobile.jpg);}
+    .titulo{max-width:100%; width: 100%; text-align: center; top: 100px; left:inherit;} 
+    }
+
+/*--------------------------------------*/
+
+@media(max-width: 749px){
+    .banner{background-image: url(../img/missao/missao-banner-mobile.jpg)}
+    .titulo{max-width:none; text-align: center; top: 220px;}
+}
+
+.missao{
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; 
+}
+
+.missao-img{
+    width: 25%;
+    height: 200px;
+    margin: auto;
+}
+
+.missao-img img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+        .missao-texto{
+        width: 75%;
+        text-align: justify;
+        min-height: 300px;
+        }
+
+                h2{
+                    color: var(--orange);
+                    font-weight: bold;
+                    font-size: 51px;
+                    width: 100%;
+                    height: 80px;
+                    line-height: 62px;
+                    margin-left: 20px;
+                }
+
+
+                .missao-texto p {
+                    font-size: 18px;
+                    color: var(--black2);
+                    margin: 20px;
+                    
+        }
+
+.missao-img2{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: none;
+
+}
+
+.missao-img2 img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+@media(max-width: 960px){
+    .missao{flex-direction: column;}
+    .missao-img{display: none;}
+    .missao-img2{display: block;}
+}
+
+@media(max-width: 570px){
+    .missao-texto{width: 90%;}
+}
+
+
+
