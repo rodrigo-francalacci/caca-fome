@@ -1,6 +1,6 @@
 //MIDIA PAINEL ADM
 
-const url = "https://opensheet.elk.sh/13sHFd7PQLFYH9sQ9OB2Le756NhE5MJkbGRXMJ1617NA/blog-posts-table";
+const url = "https://opensheet.elk.sh/18LO1iqvPN3iIn2j-H3LLdIkGLp8DlETbTkxb1pJ8m6A/blog-posts-table";
 const tag = document.querySelector("#midia-blog");
 
 
